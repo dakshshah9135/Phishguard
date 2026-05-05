@@ -1,0 +1,11 @@
+# PhishGuard Sample Test URLs
+https://paypa1-secure-login.tk/verify/account?user=target&session=abc123
+http://192.168.1.105/banking/login.php
+https://secure.login.hdfc-netbanking.verify-kyc.xyz/auth
+https://bit.ly/3xR7fake
+http://microsoft.com.login-verify-account.ru/update
+https://www.google.com
+https://github.com
+https://www.sbi.co.in
+http://login.paypal.account-suspended.com/urgent/verify/click/now
+https://dropbox.com.phishing-example.tk/login?redirect=confirm&validate=true

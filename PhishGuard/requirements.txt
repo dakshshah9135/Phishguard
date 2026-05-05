@@ -1,0 +1,4 @@
+# PhishGuard — Zero external dependencies
+# Uses Python 3.10+ standard library only:
+# re, json, urllib.parse, socket, pathlib,
+# dataclasses, datetime, argparse, sys, os, collections

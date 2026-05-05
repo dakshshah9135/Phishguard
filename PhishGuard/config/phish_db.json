@@ -1,0 +1,90 @@
+{
+  "suspicious_tlds": [
+    ".tk", ".ml", ".ga", ".cf", ".gq", ".xyz", ".top", ".click", ".link",
+    ".online", ".site", ".space", ".tech", ".live", ".stream", ".download",
+    ".win", ".bid", ".loan", ".date", ".faith", ".review", ".trade", ".accountant",
+    ".science", ".work", ".party", ".cricket", ".racing", ".webcam"
+  ],
+
+  "url_shorteners": [
+    "bit.ly", "tinyurl.com", "t.co", "goo.gl", "ow.ly", "is.gd", "buff.ly",
+    "adf.ly", "bc.vc", "u.to", "tiny.cc", "cutt.ly", "rb.gy", "shorturl.at",
+    "clck.ru", "qr.ae", "v.gd", "snip.ly", "lnkd.in", "mcaf.ee"
+  ],
+
+  "legitimate_brands": [
+    "google", "facebook", "apple", "microsoft", "amazon", "paypal", "netflix",
+    "instagram", "twitter", "linkedin", "yahoo", "outlook", "gmail", "dropbox",
+    "chase", "bankofamerica", "wellsfargo", "citibank", "ebay", "steam",
+    "adobe", "office365", "onedrive", "icloud", "whatsapp", "telegram",
+    "hdfc", "sbi", "icici", "axis", "paytm", "phonepe", "gpay", "upi",
+    "irctc", "uidai", "aadhar", "incometax", "epfo", "nsdl"
+  ],
+
+  "phishing_keywords_url": [
+    "login", "signin", "sign-in", "account", "verify", "verification",
+    "secure", "security", "update", "confirm", "confirmation", "validate",
+    "password", "credential", "authenticate", "authentication", "suspend",
+    "suspended", "locked", "unlock", "restore", "recover", "recovery",
+    "alert", "urgent", "warning", "notice", "notification", "limited",
+    "expire", "expired", "unusual", "activity", "detected", "click",
+    "free", "prize", "winner", "won", "claim", "bonus", "reward",
+    "paypal", "banking", "payment", "invoice", "billing", "refund",
+    "kyc", "otp", "pan", "aadhar", "aadhaar"
+  ],
+
+  "phishing_keywords_email": [
+    "urgent action required", "your account has been", "verify your identity",
+    "click here immediately", "your account will be suspended",
+    "confirm your details", "unusual sign-in activity", "we detected",
+    "limited time", "act now", "immediate action", "account locked",
+    "security alert", "update your information", "validate your account",
+    "your payment", "refund pending", "dear customer", "dear user",
+    "dear account holder", "click the link below", "do not ignore",
+    "failure to respond", "24 hours", "48 hours", "account suspended",
+    "unauthorized access", "compromised", "you have been selected",
+    "congratulations you won", "claim your prize", "otp required",
+    "kyc pending", "your kyc", "link your aadhaar", "income tax refund",
+    "epfo claim", "provident fund", "irctc account"
+  ],
+
+  "trusted_domains": [
+    "google.com", "gmail.com", "youtube.com", "facebook.com", "instagram.com",
+    "twitter.com", "linkedin.com", "microsoft.com", "apple.com", "amazon.com",
+    "amazon.in", "flipkart.com", "github.com", "stackoverflow.com",
+    "wikipedia.org", "reddit.com", "netflix.com", "paypal.com",
+    "sbi.co.in", "hdfcbank.com", "icicibank.com", "axisbank.com",
+    "paytm.com", "phonepe.com", "irctc.co.in", "incometax.gov.in",
+    "uidai.gov.in", "epfindia.gov.in", "india.gov.in"
+  ],
+
+  "risk_weights": {
+    "is_ip_address":           25,
+    "suspicious_tld":          20,
+    "brand_in_subdomain":      30,
+    "brand_impersonation":     35,
+    "url_shortener":           20,
+    "excessive_subdomains":    15,
+    "phishing_keyword_url":     8,
+    "https_missing":           15,
+    "long_url":                10,
+    "special_chars_url":       12,
+    "port_in_url":             18,
+    "double_slash_redirect":   22,
+    "hex_encoded_url":         25,
+    "email_phishing_keyword":   6,
+    "no_reply_sender":         10,
+    "sender_domain_mismatch":  25,
+    "urgency_language":        12,
+    "url_count_high":           8,
+    "attachment_suspicious":   15
+  },
+
+  "risk_levels": {
+    "SAFE":       [0,  20],
+    "LOW":        [21, 40],
+    "MEDIUM":     [41, 60],
+    "HIGH":       [61, 80],
+    "CRITICAL":   [81, 999]
+  }
+}

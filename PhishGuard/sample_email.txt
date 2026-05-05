@@ -1,0 +1,18 @@
+Dear Customer,
+
+We have detected unusual sign-in activity on your account. Your account will be suspended within 24 hours if you do not verify your identity immediately.
+
+Urgent action required: Click the link below to confirm your details and restore your account access.
+
+http://paypal-secure-verify.tk/account/confirm?user=target&token=xyz123&action=verify_now
+
+Failure to respond within 24 hours will result in permanent account suspension.
+
+Please also update your KYC and link your Aadhaar to avoid account lockout.
+
+Download your updated invoice: statement.xlsm
+
+Do not reply to this email. This is an automated security notification.
+
+Security Team
+PayPal Customer Support

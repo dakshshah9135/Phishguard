@@ -1,0 +1,74 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"/><title>PhishGuard Batch Report</title>
+    <style>body{font-family:'Segoe UI',sans-serif;background:#f3f4f6;margin:0;padding:2rem;color:#111827}
+    .wrap{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
+    .hd{background:linear-gradient(135deg,#0f172a,#1e3a5f);color:#fff;padding:2rem 2.5rem}
+    .ttl{font-size:1.4rem;font-weight:800}table{width:100%;border-collapse:collapse;font-size:13px}
+    th{background:#f1f5f9;padding:10px 12px;text-align:left;font-size:11px;text-transform:uppercase;color:#475569;font-weight:600}
+    td{border-bottom:1px solid #f1f5f9}tr:hover td{background:#f8fafc}
+    footer{text-align:center;padding:1rem;font-size:12px;color:#9ca3af}</style></head>
+    <body><div class="wrap"><div class="hd"><div style="font-size:20px;margin-bottom:4px;">🎣 PhishGuard</div>
+    <div class="ttl">Batch URL Analysis Report</div>
+    <div style="font-size:13px;color:#94a3b8;margin-top:8px;">10 URLs analyzed &nbsp;|&nbsp; 20260505_185936</div></div>
+    <div style="padding:1.5rem 2.5rem"><table><thead><tr><th>URL</th><th>Domain</th><th>Risk</th><th>Score</th><th>Verdict</th></tr></thead>
+    <tbody><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">https://paypa1-secure-login.tk/verify/account?user=target&session=abc123</td>
+          <td style="padding:8px 12px;">paypa1-secure-login.tk</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#ea580c;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">MEDIUM</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#ea580c;">52</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">Multiple phishing indicators detected. Do not enter any pers</td>
+        </tr><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">http://192.168.1.105/banking/login.php</td>
+          <td style="padding:8px 12px;">192.168.1.105</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#ea580c;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">MEDIUM</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#ea580c;">56</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">Multiple phishing indicators detected. Do not enter any pers</td>
+        </tr><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">https://secure.login.hdfc-netbanking.verify-kyc.xyz/auth</td>
+          <td style="padding:8px 12px;">secure.login.hdfc-netbanking.verify-kyc.xyz</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#7c3aed;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">CRITICAL</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#7c3aed;">100</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">CRITICAL: Extremely high phishing confidence. This URL shoul</td>
+        </tr><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">https://bit.ly/3xR7fake</td>
+          <td style="padding:8px 12px;">bit.ly</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#16a34a;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">SAFE</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#16a34a;">20</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">No significant phishing indicators detected. Exercise standa</td>
+        </tr><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">http://microsoft.com.login-verify-account.ru/update</td>
+          <td style="padding:8px 12px;">microsoft.com.login-verify-account.ru</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#7c3aed;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">CRITICAL</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#7c3aed;">100</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">CRITICAL: Extremely high phishing confidence. This URL shoul</td>
+        </tr><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">https://www.google.com</td>
+          <td style="padding:8px 12px;">www.google.com</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#16a34a;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">SAFE</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#16a34a;">0</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">'google.com' is a known legitimate domain. Still verify you'</td>
+        </tr><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">https://github.com</td>
+          <td style="padding:8px 12px;">github.com</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#16a34a;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">SAFE</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#16a34a;">0</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">'github.com' is a known legitimate domain. Still verify you'</td>
+        </tr><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">https://www.sbi.co.in</td>
+          <td style="padding:8px 12px;">www.sbi.co.in</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#ca8a04;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">LOW</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#ca8a04;">35</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">Minor indicators found. Verify this URL before entering any </td>
+        </tr><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">http://login.paypal.account-suspended.com/urgent/verify/click/now</td>
+          <td style="padding:8px 12px;">login.paypal.account-suspended.com</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#7c3aed;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">CRITICAL</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#7c3aed;">82</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">CRITICAL: Extremely high phishing confidence. This URL shoul</td>
+        </tr><tr>
+          <td style="padding:8px 12px;font-family:monospace;font-size:12px;word-break:break-all;">https://dropbox.com.phishing-example.tk/login?redirect=confirm&validate=true</td>
+          <td style="padding:8px 12px;">dropbox.com.phishing-example.tk</td>
+          <td style="padding:8px 12px;text-align:center;"><span style="background:#dc2626;color:#fff;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;">HIGH</span></td>
+          <td style="padding:8px 12px;text-align:center;font-weight:700;color:#dc2626;">79</td>
+          <td style="padding:8px 12px;font-size:12px;color:#4b5563;">High-confidence phishing URL. This link is very likely malic</td>
+        </tr></tbody></table></div>
+    <footer>PhishGuard v1.0 | Built by Daksh Shah | github.com/daksh-shah9135/phishguard</footer></div></body></html>
